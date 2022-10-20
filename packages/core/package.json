@@ -1,6 +1,6 @@
 {
   "name": "@wisper-cli/core",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "sun-bigshan",
   "homepage": "",
@@ -19,5 +19,8 @@
   "scripts": {
     "test": "node ./__tests__/core.test.js"
   },
-  "gitHead": "373d3083aa28502e0576d3e5dc2600db6fcf5a10"
+  "gitHead": "373d3083aa28502e0576d3e5dc2600db6fcf5a10",
+  "publishConfig": {
+    "access": "public"
+  }
 }
