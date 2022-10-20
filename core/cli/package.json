@@ -5,9 +5,9 @@
   "author": "sun-bigshan",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/core.js",
+  "main": "lib/index.js",
   "bin": {
-    "wsiper-cli": "bin/index.js"
+    "wisper-cli": "bin/index.js"
   },
   "directories": {
     "lib": "lib",
@@ -18,6 +18,13 @@
   ],
   "scripts": {
     "test": "node ./__tests__/core.test.js"
+  },
+  "dependencies": {
+    "@wisper-cli/log": "file:../../utils/log",
+    "colors": "^1.4.0",
+    "import-local": "^3.1.0",
+    "root-check": "^1.0.0",
+    "semver": "^7.3.8"
   },
   "gitHead": "373d3083aa28502e0576d3e5dc2600db6fcf5a10",
   "publishConfig": {
