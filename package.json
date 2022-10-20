@@ -1,0 +1,18 @@
+{
+  "name": "wisper-cli",
+  "version": "1.0.0",
+  "description": "wsiper-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "“sundashan” <sunbigshan@gmail.com> (https://github.com/sun-bigshan)",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^6.0.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
