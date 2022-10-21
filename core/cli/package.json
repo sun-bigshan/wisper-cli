@@ -1,6 +1,6 @@
 {
   "name": "@wisper-cli/core",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "> TODO: description",
   "author": "sun-bigshan",
   "homepage": "",
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@wisper-cli/get-npm-info": "file:../../utils/get-npm-info",
-    "@wisper-cli/log": "^1.0.6",
+    "@wisper-cli/log": "^1.0.7",
     "colors": "^1.4.0",
     "dotenv": "^16.0.3",
     "import-local": "^3.1.0",
