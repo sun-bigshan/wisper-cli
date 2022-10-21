@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@wisper-cli/get-npm-info": "file:../../utils/get-npm-info",
-    "@wisper-cli/log": "file:../../utils/log",
+    "@wisper-cli/log": "^1.0.5",
     "colors": "^1.4.0",
     "dotenv": "^16.0.3",
     "import-local": "^3.1.0",
@@ -31,7 +31,7 @@
     "semver": "^7.3.8",
     "user-home": "^3.0.0"
   },
-  "gitHead": "373d3083aa28502e0576d3e5dc2600db6fcf5a10",
+  "gitHead": "fd960b5550562af39109b96cb2a8f896d184dce1",
   "publishConfig": {
     "access": "public"
   }
