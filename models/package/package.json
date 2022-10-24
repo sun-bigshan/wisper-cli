@@ -1,0 +1,38 @@
+{
+  "name": "@wisper-cli/package",
+  "version": "1.0.7",
+  "description": "> TODO: description",
+  "author": "sun-bigshan",
+  "homepage": "https://github.com/sun-bigshan/wisper-cli#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sun-bigshan/wisper-cli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@wisper-cli/package.test.js"
+  },
+  "dependencies": {
+    "@wisper-cli/format-path": "file:../../utils/format-path",
+    "@wisper-cli/get-npm-info": "file:../../utils/get-npm-info",
+    "@wisper-cli/utils": "file:../../utils/utils",
+    "fs-extra": "^10.1.0",
+    "npminstall": "^6.5.2",
+    "path-exists": "4.0.0",
+    "pkg-dir": "^5.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/sun-bigshan/wisper-cli/issues"
+  }
+}
