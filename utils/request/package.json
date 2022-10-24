@@ -1,5 +1,5 @@
 {
-  "name": "@wisper-cli/init",
+  "name": "@wisper-cli/request",
   "version": "1.0.7",
   "description": "> TODO: description",
   "author": "sun-bigshan",
@@ -21,20 +21,12 @@
     "url": "git+https://github.com/sun-bigshan/wisper-cli.git"
   },
   "scripts": {
-    "test": "node ./__tests__/@wisper-cli/init.test.js"
-  },
-  "dependencies": {
-    "@wisper-cli/command": "file:../../models/command",
-    "@wisper-cli/log": "file:../../utils/log",
-    "@wisper-cli/request": "file:../../utils/request",
-    "@wisper-cli/package": "file:../../models/package",
-    "@wisper-cli/utils": "file:../../utils/utils",
-    "inquirer": "8.2.5",
-    "fs-extra": "^10.1.0",
-    "semver": "^7.3.8",
-    "user-home": "^3.0.0"
+    "test": "node ./__tests__/@wisper-cli/request.test.js"
   },
   "bugs": {
     "url": "https://github.com/sun-bigshan/wisper-cli/issues"
+  },
+  "dependencies": {
+    "axios": "^1.1.3"
   }
 }

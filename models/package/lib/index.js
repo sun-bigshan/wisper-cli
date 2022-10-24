@@ -37,7 +37,6 @@ class Package {
     }
     if (this.packageVersion === 'latest') {
       this.packageVersion = await getNpmLatestVersion(this.packageName);
-      console.log(this.packageVersion);
     }
   }
   get cacheFilePath() {
@@ -92,7 +91,7 @@ class Package {
         pkgs: [
           {
             name: this.packageName,
-            version: latestFilePath,
+            version: latestPackageVersion,
           },
         ],
       };
