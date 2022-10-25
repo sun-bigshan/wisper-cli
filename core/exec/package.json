@@ -25,7 +25,8 @@
   },
   "dependencies": {
     "@wisper-cli/package": "file:../../models/package",
-    "@wisper-cli/log": "file:../../utils/log"
+    "@wisper-cli/log": "file:../../utils/log",
+    "@wisper-cli/utils": "file:../../utils/utils"
   },
   "bugs": {
     "url": "https://github.com/sun-bigshan/wisper-cli/issues"

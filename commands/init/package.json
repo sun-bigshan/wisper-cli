@@ -26,11 +26,14 @@
   "dependencies": {
     "@wisper-cli/command": "file:../../models/command",
     "@wisper-cli/log": "file:../../utils/log",
-    "@wisper-cli/request": "file:../../utils/request",
     "@wisper-cli/package": "file:../../models/package",
+    "@wisper-cli/request": "file:../../utils/request",
     "@wisper-cli/utils": "file:../../utils/utils",
-    "inquirer": "8.2.5",
+    "ejs": "^3.1.8",
     "fs-extra": "^10.1.0",
+    "glob": "^8.0.3",
+    "inquirer": "8.2.5",
+    "kebab-case": "^1.0.2",
     "semver": "^7.3.8",
     "user-home": "^3.0.0"
   },
