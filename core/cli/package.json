@@ -1,6 +1,6 @@
 {
   "name": "@wisper-cli/core",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "> TODO: description",
   "author": "sun-bigshan",
   "homepage": "",
@@ -20,10 +20,10 @@
     "test": "node ./__tests__/core.test.js"
   },
   "dependencies": {
-    "@wisper-cli/get-npm-info": "file:../../utils/get-npm-info",
-    "@wisper-cli/log": "file:../../utils/log",
-    "@wisper-cli/init": "file:../../commands/init",
     "@wisper-cli/exec": "file:../exec",
+    "@wisper-cli/get-npm-info": "file:../../utils/get-npm-info",
+    "@wisper-cli/init": "file:../../commands/init",
+    "@wisper-cli/log": "file:../../utils/log",
     "colors": "^1.4.0",
     "commander": "^9.4.1",
     "dotenv": "^16.0.3",

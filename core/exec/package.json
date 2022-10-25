@@ -1,6 +1,6 @@
 {
   "name": "@wisper-cli/exec",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "> TODO: description",
   "author": "sun-bigshan",
   "homepage": "https://github.com/sun-bigshan/wisper-cli#readme",
@@ -24,8 +24,8 @@
     "test": "node ./__tests__/@wisper-cli/exec.test.js"
   },
   "dependencies": {
-    "@wisper-cli/package": "file:../../models/package",
     "@wisper-cli/log": "file:../../utils/log",
+    "@wisper-cli/package": "file:../../models/package",
     "@wisper-cli/utils": "file:../../utils/utils"
   },
   "bugs": {
