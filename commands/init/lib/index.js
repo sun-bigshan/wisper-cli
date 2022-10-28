@@ -161,9 +161,7 @@ class InitCommand extends Command {
     }
   }
   async installCustomTemplate() {
-    // const rootFile = this.templateNpm.getRootFilePath();
-    const rootFile =
-      '/Users/sungenhua/learnspace/wisper-cli-template/wisper-cli-template-custom-vue3/index.js';
+    const rootFile = this.templateNpm.getRootFilePath();
     if (fs.existsSync(rootFile)) {
       log.notice('开始执行自定义模板');
       const templatePath = path.resolve(
