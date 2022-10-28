@@ -1,4 +1,7 @@
-68 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin master
-68 error fatal: 无法访问 'https://github.com/sun-bigshan/wisper-cli.git/'：Failed to connect to github.com port 443 after 75038 ms: Operation timed out
-68 error     at makeError (/Users/sungenhua/learnspace/wisper-cli/node_modules/execa/lib/error.js:60:11)
-68 error     at handlePromise (/Users/sungenhua/learnspace/wisper-cli/node_modules/execa/index.js:118:26)
+70 error Error: Command failed with exit code 1: git push --follow-tags --no-verify --atomic origin master
+70 error error: RPC 失败。curl 56 LibreSSL SSL_read: error:02FFF03C:system library:func(4095):Operation timed out, errno 60
+70 error fatal: 远端意外挂断了
+70 error fatal: 远端意外挂断了
+70 error Everything up-to-date
+70 error     at makeError (/Users/sungenhua/learnspace/wisper-cli/node_modules/execa/lib/error.js:60:11)
+70 error     at handlePromise (/Users/sungenhua/learnspace/wisper-cli/node_modules/execa/index.js:118:26)
