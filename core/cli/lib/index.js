@@ -6,11 +6,9 @@ const colors = require('colors');
 const userHome = require('user-home');
 const pathExists = require('path-exists').sync;
 const commander = require('commander');
-
 const pkg = require('../package.json');
 const log = require('@wisper-cli/log');
 const constant = require('./const');
-// const init = require('@wisper-cli/init');
 const exec = require('@wisper-cli/exec');
 
 let config;
@@ -35,7 +33,7 @@ function registerCommand() {
     .usage('<command> [options]')
     .version(pkg.version)
     .option('-d, --debug', '是否开启调试模式', false)
-    .option('-tp, --targetPath <targetPath>', '是否制定本地调试文件路径', '');
+    .option('-tp, --targetPath <targetPath>', '是否指定本地调试文件路径', '');
 
   program
     .command('init [projectName]')

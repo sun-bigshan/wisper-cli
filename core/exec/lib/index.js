@@ -6,8 +6,7 @@ const log = require('@wisper-cli/log');
 const { exec: spawn } = require('@wisper-cli/utils');
 
 const SETTINGS = {
-  // init: '@wisper-cli/init',
-  init: '@imooc-cli/init',
+  init: '@wisper-cli/init',
 };
 
 const CACHE_DIR = 'dependencies';

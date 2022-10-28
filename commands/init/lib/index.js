@@ -164,7 +164,6 @@ class InitCommand extends Command {
     // const rootFile = this.templateNpm.getRootFilePath();
     const rootFile =
       '/Users/sungenhua/learnspace/wisper-cli-template/wisper-cli-template-custom-vue3/index.js';
-    console.log('rootFile====', rootFile);
     if (fs.existsSync(rootFile)) {
       log.notice('开始执行自定义模板');
       const templatePath = path.resolve(
