@@ -1,18 +1,4 @@
-0 silly argv {
-0 silly argv   _: [ 'create' ],
-0 silly argv   lernaVersion: '6.0.1',
-0 silly argv   '$0': 'node_modules/.bin/lerna',
-0 silly argv   name: '@wisper-cli/format-path'
-0 silly argv }
-1 notice cli v6.0.1
-2 verbose rootPath /Users/sungenhua/learnspace/wisper-cli
-3 error Error: canceled
-3 error     at Interface.<anonymous> (/Users/sungenhua/learnspace/wisper-cli/node_modules/read/lib/read.js:66:13)
-3 error     at Interface.emit (events.js:400:28)
-3 error     at Interface._ttyWrite (readline.js:1001:16)
-3 error     at ReadStream.onkeypress (readline.js:265:10)
-3 error     at ReadStream.emit (events.js:400:28)
-3 error     at emitKeys (internal/readline/utils.js:358:14)
-3 error     at emitKeys.next (<anonymous>)
-3 error     at ReadStream.onData (readline.js:1270:36)
-3 error     at ReadStream.emit (events.js:400:28)
+68 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin master
+68 error fatal: 无法访问 'https://github.com/sun-bigshan/wisper-cli.git/'：Failed to connect to github.com port 443 after 75038 ms: Operation timed out
+68 error     at makeError (/Users/sungenhua/learnspace/wisper-cli/node_modules/execa/lib/error.js:60:11)
+68 error     at handlePromise (/Users/sungenhua/learnspace/wisper-cli/node_modules/execa/index.js:118:26)
