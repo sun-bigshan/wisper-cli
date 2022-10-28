@@ -163,7 +163,7 @@ class InitCommand extends Command {
   async installCustomTemplate() {
     const rootFile = this.templateNpm.getRootFilePath();
     if (fs.existsSync(rootFile)) {
-      log.notice('开始执行自定义模板');
+      log.notice('开始执行自定义模板 ');
       const templatePath = path.resolve(
         this.templateNpm.cacheFilePath,
         'template'
